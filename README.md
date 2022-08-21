@@ -1,2 +1,2 @@
-# Movie-Recommendation-System
-Using IMDB dataset to recommend movies using collaborative filtering
+# Best-Ad-by-CTR
+Using Thompson Sampling to find the best ad as fast as possible and use it exclusively
