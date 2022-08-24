@@ -10,7 +10,7 @@ Original file is located at
 
 ## Importing the libraries
 """
-
+import inline as inline
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -23,7 +23,7 @@ dataset = pd.read_csv('Ads_CTR_Optimisation.csv')
 
 import random
 
-N = 1000
+N = 5000
 d = 10
 ads_selected = []
 numbers_of_rewards_0 = [0]*d
@@ -47,7 +47,7 @@ for n in range(0,N):
   total_reward += reward
 
 """## Visualising the results - Histogram"""
-
+#%matplotlib inline
 plt.hist(ads_selected)
 plt.title('Histogram of ads selected')
 plt.xlabel('Ads')
